@@ -1,7 +1,3 @@
-Sure! Based on the information you've provided about the repository, here's a draft README file tailored for your `dotnetbasicrag` repository:
-
----
-
 # DotNetBasicRag
 
 Welcome to the **DotNetBasicRag** repository! This project is written entirely in **C#** and aims to provide a foundation or implementation of basic concepts and functionalities in .NET. Whether you're new to .NET or looking to explore specific features, this repository serves as a great starting point.
