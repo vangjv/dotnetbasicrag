@@ -8,9 +8,12 @@
         {
             _apps = new List<IApp>
             {
-                new OpenAIEmbedding(),
-                new SimpleVectorSimilaritySearch(),
+                new SimplestLLMCall(),
                 new OpenAIBasicChat(),
+                new InContextLearningChat(),
+                new OpenAIEmbedding(),
+                new SimpleVectorSimilaritySearch(),                
+                new BasicRAGChat()
             };
         }
 
