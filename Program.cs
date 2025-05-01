@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using dotnetbasicrag.Apps;
+
+namespace dotnetbasicrage
+{
+    public class Program
+    {
+        public static async Task Main(string[] args)
+        {
+            var menu = new AppMenu();
+            await menu.ShowAsync();
+        }
+    }
+}
